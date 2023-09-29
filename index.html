@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header class="text-center">
+    <p class="h1">Survey Name</p>
+    <p class="h2 text-gray">Subtitle fo the Survey Name</p>
+  </header>
+  <div class="container">
+    <nav class="d-flex justify-content-evenly flex-row">
+      <div class="nav nav-tabs container d-flex nav-justified" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+          role="tab" aria-controls="nav-home" aria-selected="true">
+          <p class="h4">Step 1</p>
+          <p class="h5">Personal info</p>
+        </button>
+        <button class="nav-link " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+          role="tab" aria-controls="nav-profile" aria-selected="false">
+          <p class="h4">Step 2</p>
+          <p class="h5">Questions w/answers</p>
+        </button>
+        <button class="nav-link " id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+          role="tab" aria-controls="nav-contact" aria-selected="false">
+          <p class="h4">Step 3</p>
+          <p class="h5">Questions w/rating</p>
+        </button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <form action="">
+          <div class="row align-items-start">
+            <div class="col-3">
+              <p class="h5">Sex:</p>
+              <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+            </div>
+            <div class="col-3">
+              <p class="h5">Age:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="col">
+              <p class="h5">Phone:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+          </div>
+
+          <p></p>
+
+          <div class="row align-items-start">
+
+            <div class="col">
+              <p class="h5">Name:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Firstname Lastname">
+            </div>
+            <div class="col">
+              <p class="h5">Email:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="username@demain.com">
+            </div>
+          </div>
+
+          <p></p>
+
+          <div class="row align-items-start">
+
+            <div class="col-8">
+              <p class="h5">Address:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 Street Name">
+            </div>
+            <div class="col">
+              <p class="h5">Apartment or flour:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="83. 4th Floor, or similar">
+            </div>
+          </div>
+
+
+          <p></p>
+
+          <div class="row align-items-start">
+
+            <div class="col-6">
+              <p class="h5">City:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="City">
+            </div>
+            <div class="col-2">
+              <p class="h5">Zip:</p>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123">
+            </div>
+            <div class="col">
+              <p class="h5">Country:</p>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Country</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+              </select>
+            </div>
+          </div>
+
+          <p></p>
+
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-outline-secondary">Step 2
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+        <p></p>
+
+        <p class="h3 text-center">Question #1: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+
+        <p></p>
+
+        <div class="row align-items-start">
+
+          <div class="col-6">
+
+            <img src="img/1600x900.png" width="600">
+
+            <p></p>
+
+            <p class="h5 opacity-50">A capitan for the figure image</p>
+
+          </div>
+          <div class="col">
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 1
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Answer for radio 2
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 3
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 4
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 5
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Other">
+              </label>
+            </div>
+            <div>
+              <p class="h6 opacity-50 p-3">If none of the answers abowe is importante for you please write your own
+                answer in the input field</p>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <p></p>
+
+        <p class="h3 text-center">Question #2: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+
+        <p></p>
+
+        <div class="row align-items-start">
+
+          <div class="col-6">
+
+            <img src="img/1600x900.png" width="600">
+
+            <p></p>
+
+            <p class="h5 opacity-50">A capitan for the figure image</p>
+
+          </div>
+          <div class="col">
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 1
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Answer for radio 2
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 4
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 5
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Other">
+              </label>
+            </div>
+            <div>
+              <p class="h6 opacity-50 p-3">If none of the answers abowe is importante for you please write your own
+                answer in the input field</p>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <p></p>
+
+        <p class="h3 text-center">Question #2: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+
+        <p></p>
+
+        <div class="row align-items-start">
+
+          <div class="col-6">
+
+            <img src="img/1600x900.png" width="600">
+
+            <p></p>
+
+            <p class="h5 opacity-50">A capitan for the figure image</p>
+
+          </div>
+          <div class="col">
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 1
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Answer for radio 2
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 3
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 4
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for radio 5
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Other">
+              </label>
+            </div>
+            <div>
+              <p class="h6 opacity-50 p-3">If none of the answers abowe is importante for you please write your own
+                answer in the input field</p>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <p></p>
+
+        <p class="h3 text-center">Question #3: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+
+        <p></p>
+
+        <div class="row align-items-start">
+
+          <div class="col-6">
+
+            <img src="img/1600x900.png" width="600">
+
+            <p></p>
+
+            <p class="h5 opacity-50">A capitan for the figure image</p>
+
+
+
+          </div>
+          <div class="col">
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 1
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Answer for checkbox 2
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 3
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 4
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 5
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Other">
+              </label>
+            </div>
+            <div>
+              <p class="h6 opacity-50 p-3">If none of the answers abowe is importante for you please write your own
+                answer in the input field</p>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <p></p>
+
+        <p class="h3 text-center">Question #4: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+
+        <p></p>
+
+        <div class="row align-items-start">
+
+          <div class="col-6">
+
+            <img src="img/1600x900.png" width="600">
+
+            <p></p>
+
+            <p class="h5 opacity-50">A capitan for the figure image</p>
+
+          </div>
+          <div class="col">
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 1
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Answer for checkbox 2
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 3
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 4
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Answer for checkbox 5
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Other">
+              </label>
+            </div>
+            <div>
+              <p class="h6 opacity-50 p-3">If none of the answers abowe is importante for you please write your own
+                answer in the input field</p>
+            </div>
+
+
+
+          </div>
+
+          <p></p>
+
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-outline-secondary">Step
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+        <p></p>
+
+        <div class="row align-items-start">
+
+          <div class="col-6">
+
+            <p class=" h5 text-justify">Question #5: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+<p class="h8 ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum malesauda semper velit, id  condimentum dui aliquet non.</p>
+
+</div>
+
+<div class="col">
+  <div class="d-flex flex-row justify-content-around">
+<div class="form-check form-check-inline ">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">3</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">4</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">5</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">n/a</label>
+</div>
+
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+</div>
+
+</div>
+<div class="row align-items-start">
+
+  <div class="col-6">
+
+    <p class=" h5 text-justify">Question #6: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+<p class="h8 ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum malesauda semper velit, id  condimentum dui aliquet non.</p>
+
+</div>
+
+<div class="col">
+<div class="d-flex flex-row justify-content-around">
+<div class="form-check form-check-inline ">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">3</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">4</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">5</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">n/a</label>
+</div>
+
+</div>
+<div class="mb-3">
+<label for="exampleFormControlTextarea1" class="form-label"></label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+</div>
+</div>
+</div>
+<div class="row align-items-start">
+
+  <div class="col-6">
+
+    <p class=" h5 text-justify">Question #7: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+<p class="h8 ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum malesauda semper velit, id  condimentum dui aliquet non.</p>
+
+</div>
+
+<div class="col">
+<div class="d-flex flex-row justify-content-around">
+<div class="form-check form-check-inline ">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">3</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">4</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">5</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">n/a</label>
+</div>
+
+</div>
+<div class="mb-3">
+<label for="exampleFormControlTextarea1" class="form-label"></label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+</div>
+</div>
+</div>
+<div class="row align-items-start">
+
+  <div class="col-6">
+
+    <p class=" h5 text-justify">Question #8: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+<p class="h8 ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum malesauda semper velit, id  condimentum dui aliquet non.</p>
+
+</div>
+
+<div class="col">
+<div class="d-flex flex-row justify-content-around">
+<div class="form-check form-check-inline ">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">3</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">4</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">5</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">n/a</label>
+</div>
+
+</div>
+<div class="mb-3">
+<label for="exampleFormControlTextarea1" class="form-label"></label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+</div>
+</div>
+</div>
+<div class="row align-items-start">
+
+  <div class="col-6">
+
+    <p class=" h5 text-justify">Question #9: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+<p class="h8 ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum malesauda semper velit, id  condimentum dui aliquet non.</p>
+
+</div>
+
+<div class="col">
+<div class="d-flex flex-row justify-content-around">
+<div class="form-check form-check-inline ">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">3</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">4</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">5</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">n/a</label>
+</div>
+
+</div>
+<div class="mb-3">
+<label for="exampleFormControlTextarea1" class="form-label"></label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+</div>
+</div>
+</div>
+<div class="row align-items-start">
+
+  <div class="col-6">
+
+    <p class=" h5 text-justify">Question #10: Lorem ipsum dolor sit amet, consectetur adipiscind elit?</p>
+<p class="h8 ">Lorem ipsum dolor sit amet consectetur adipiscing elit. Vestibulum malesauda semper velit, id  condimentum dui aliquet non.</p>
+
+</div>
+
+<div class="col">
+<div class="d-flex flex-row justify-content-around">
+<div class="form-check form-check-inline ">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2" placeholder="123">2</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">3</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">4</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">5</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">n/a</label>
+</div>
+
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+  
+ </div>
+  
+   </div>
+
+   <p></p>
+
+   <div class="d-flex justify-content-end">
+     <a href="resault.html" class="btn">
+    <button type="submit" class="btn btn-outline-secondary">Step
+     </button></a>
+   </div>
+</div>
+
+</div>
+
+
+</div>
+
+      </div>
+   
+   
+
+  
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+
+</html>
